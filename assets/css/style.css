@@ -95,14 +95,26 @@ textarea {
   vertical-align: top;
   height: 60px;
 }
+
+nav {
+  text-align: center;
+}
   
 button {
   height: 40px;
   width: 120px;
   background-color: #4F4846;
   color: #FDF8F5;
+  cursor: pointer;
+  border-radius:8px;
+  margin-top:3px;
+  transition: 0.2s;
 }
- 
+
+button:hover {
+  background-color: #7e7674;
+  box-shadow: 5px 5px 5px gray;
+}
 /* Class Selectors */
 .text-center {
   text-align: center;
